@@ -1,0 +1,90 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "debug",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A8365F2BD6BA9A0996B0E940F44B35875BA160ADAE4E7ED11D4F863757E2131300A13EEFA05BD",
+          "profile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p12",
+          "storePassword": "0000001A9F21D28803B391660AB3FDF241F53864BDFFE56639F9CFD41F60F65686411E36BB90EA98F716"
+        }
+      },
+      {
+        "name": "release",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A6E3A7E4A6A03FE9C661A88B5D8B5C4FC9253B36FCFFB062BE7DD7932F8596AFCA36569D72416",
+          "profile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p12",
+          "storePassword": "0000001AFB378B0C6F9DA1755DEEC7089D9B929A5BEF596F6D1E5931E2FDB473CC5513C6BEF257E63796"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "debug",
+        "targetSdkVersion": "6.1.1(24)",
+        "compatibleSdkVersion": "6.1.0(23)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "release",
+        "signingConfig": "release",
+        "targetSdkVersion": "6.1.1(24)",
+        "compatibleSdkVersion": "6.1.0(23)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "debuggable": false,
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+        "buildOption": {
+          "debuggable": true
+        }
+      },
+      {
+        "name": "release",
+        "buildOption": {
+          "debuggable": false
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "sonar",
+      "srcPath": "./sonar",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default",
+            "release"
+          ]
+        }
+      ]
+    }
+  ]
+}
