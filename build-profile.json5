@@ -5,26 +5,26 @@
         "name": "debug",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.cer",
+          "certpath": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_hearttone_Qdc3_nPmE2OUpO8M-SnwvOJ5VDR0eqTcyY9_KVzi-OE=.cer",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001A8365F2BD6BA9A0996B0E940F44B35875BA160ADAE4E7ED11D4F863757E2131300A13EEFA05BD",
-          "profile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p7b",
+          "keyPassword": "0000001A6D478F5BE9A18520ADE88C009F25A59581AC6A66E62E145A7FC234390F10ECE83A8C33C3C708",
+          "profile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_hearttone_Qdc3_nPmE2OUpO8M-SnwvOJ5VDR0eqTcyY9_KVzi-OE=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p12",
-          "storePassword": "0000001A9F21D28803B391660AB3FDF241F53864BDFFE56639F9CFD41F60F65686411E36BB90EA98F716"
+          "storeFile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\debug_hearttone_Qdc3_nPmE2OUpO8M-SnwvOJ5VDR0eqTcyY9_KVzi-OE=.p12",
+          "storePassword": "0000001AFB3E3F311E0B900A2B93C07EB5D131543D3BD6DC636DFEADE172314D3E924A292A304AD3203F"
         }
       },
       {
         "name": "release",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.cer",
+          "certpath": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_hearttone_Qdc3_nPmE2OUpO8M-SnwvOJ5VDR0eqTcyY9_KVzi-OE=.cer",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001A6E3A7E4A6A03FE9C661A88B5D8B5C4FC9253B36FCFFB062BE7DD7932F8596AFCA36569D72416",
-          "profile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p7b",
+          "keyPassword": "0000001A61D4D20ECAB9DD19608BF03158B279BFD5DCFD64F9E03A97F052BDA6C6EC601184A05BBDD41F",
+          "profile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_hearttone_Qdc3_nPmE2OUpO8M-SnwvOJ5VDR0eqTcyY9_KVzi-OE=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_sonar-main_3wDjOqhT0_tpoMA3VVXh2ktR8ws4Zn7aBfbGGPZ975U=.p12",
-          "storePassword": "0000001AFB378B0C6F9DA1755DEEC7089D9B929A5BEF596F6D1E5931E2FDB473CC5513C6BEF257E63796"
+          "storeFile": "C:\\Users\\whoiscareful.DESKTOP-M6TU0LH\\.ohos\\config\\release_hearttone_Qdc3_nPmE2OUpO8M-SnwvOJ5VDR0eqTcyY9_KVzi-OE=.p12",
+          "storePassword": "0000001AB4781D188D8B6CEB9CDABF59E4C27C1CBCA3CD9985F5E01F42B46A44106DF308F24193F118B1"
         }
       }
     ],
@@ -74,8 +74,8 @@
   },
   "modules": [
     {
-      "name": "sonar",
-      "srcPath": "./sonar",
+      "name": "hearttone",
+      "srcPath": "./hearttone",
       "targets": [
         {
           "name": "default",
